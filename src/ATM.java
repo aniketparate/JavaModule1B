@@ -9,9 +9,9 @@ Calculate Pooja's account balance after an attempted transaction.
 
 public class ATM {
     public static void main(String[] args) {
-        float withdrawal = 0,balance=3000, X=1500;
+        float withdrawal,balance=3000, X=1500;
 
-        if (withdrawal>0 && withdrawal<2000 && X%5 == 0) {
+        if (X>0 && X<2000 && X%5 == 0) {
             withdrawal = X + 0.15F;
             System.out.println(" balance =  " +(balance - withdrawal));
         }
