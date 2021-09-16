@@ -9,7 +9,7 @@ and print back the speed of qualifying racers.
 
 public class bikers {
     public static void main(String[] args) {
-        int a[]=new int[5];
+        float[] a =new float[5];
         a[0]=105;
         a[1]=140;
         a[2]=130;
