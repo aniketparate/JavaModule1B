@@ -8,20 +8,13 @@ public class UseBox{
         //Create object of class this way
         Box a = new Box();
         Box b = new Box();
-        Box c;
-        c = b;
+
         double volume1, volume2;
 
         //Assign Values
-        a.depth = 10;
-        a.height = 10;
-        a.weight = 10;
-        a.width = 10;
+        a.setValues(10, 10, 10, 10);
 
-        b.depth = 9;
-        b.height = 10;
-        b.weight = 8;
-        b.width = 8;
+        b.setValues(5, 10, 5, 10);
 
         volume1 = a.volume();
         volume2 = b.volume();
