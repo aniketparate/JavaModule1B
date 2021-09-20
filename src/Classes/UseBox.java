@@ -6,15 +6,13 @@ public class UseBox{
     public static void main(String args[]) {
 
         //Create object of class this way
-        Box a = new Box();
-        Box b = new Box();
+        Box a = new Box(10,10,10,10);
+        Box b = new Box(5,10,5,10);
 
         double volume1, volume2;
 
         //Assign Values
-        a.setValues(10, 10, 10, 10);
 
-        b.setValues(5, 10, 5, 10);
 
         volume1 = a.volume();
         volume2 = b.volume();
